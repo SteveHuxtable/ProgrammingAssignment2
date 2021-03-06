@@ -27,8 +27,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## test the above makeCacheMatrix()
-# test_mat <- matrix(data = 1:4, nrow = 2, byrow = TRUE)
-# cached_mat <- makeCacheMatrix(test_mat)
+test_mat <- matrix(data = 1:4, nrow = 2, byrow = TRUE)
+cached_mat <- makeCacheMatrix(test_mat)
 # cached_mat$get_mat()
 # cached_mat$get_inv_matrix() # seems all right
 
